@@ -1,7 +1,7 @@
 package part1.basic.variables;
 import java.util.Scanner;
 
-public class Example02CircleArea {
+public class Example02CircleAndPerimeterArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
