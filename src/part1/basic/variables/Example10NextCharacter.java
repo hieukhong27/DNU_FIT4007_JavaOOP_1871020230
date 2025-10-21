@@ -2,7 +2,7 @@ package part1.basic.variables;
 
 import java.util.Scanner;
 
-public class Example09NextCharacter {
+public class Example10NextCharacter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập chữ cái thường từ a đến z: ");
