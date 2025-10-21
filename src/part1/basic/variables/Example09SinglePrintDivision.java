@@ -10,10 +10,12 @@ public class Example09SinglePrintDivision {
         System.out.print("Nhập số nguyên b: ");
         int b = sc.nextInt();
 
-        if (b!=0){
-            double c =(double) a / b;
-            System.out.println("Kết quả của "+ a +" chia " +b + " là: " + c);
+        if (b==0){
+            System.out.println("Không có số nào chia hết cho 0");
             return;
         }
+
+        double c =(double) a / b;
+        System.out.println("Kết quả của "+ a +" chia " +b + " là: " + c);
     }
 }
