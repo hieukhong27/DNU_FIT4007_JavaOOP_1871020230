@@ -10,12 +10,15 @@ public class Example02Rectangle {
         System.out.print("Nhập cạnh b: ");
         int b = sc.nextInt();
 
-        
-        if (a == b){
-            System.out.print("Hình vuông");
+        if (0 <= a || 0 <= b) {
+            System.out.print("Cạnh a và b phải lớn hơn hoặc 0");
         }
-        else{
-            System.out.print("hình chữ nhật");
+        else {
+            if (a == b) {
+                System.out.print("Hình vuông");
+            } else {
+                System.out.print("hình chữ nhật");
+            }
         }
     }
 }
