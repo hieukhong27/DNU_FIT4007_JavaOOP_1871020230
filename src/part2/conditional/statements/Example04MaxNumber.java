@@ -17,7 +17,7 @@ public class Example04MaxNumber {
             System.out.print(b + " lớn hơn "+ a);
         }
         else if(a == b){
-            System.out.print("H");
+            System.out.print("Hai số nguyên a và b bằng nhau");
         }
     }
 }
