@@ -11,8 +11,10 @@ public class Example11SwapValues {
         int b = sc.nextInt();
 
         int c = (int)a;
-        System.out.print("Gía trị a là: " + b + "\n");
-        System.out.print("Gía trị b là: " + c);
+        a = b;
+        b = c;
+        System.out.print("Gía trị a là: " + a + "\n");
+        System.out.print("Gía trị b là: " + b);
 
     }
 }
