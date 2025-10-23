@@ -9,18 +9,14 @@ public class Example15DongHo {
         int h = sc.nextInt();
         System.out.print("Nhập sô phút(m): ");
         int m = sc.nextInt();
+        int n = m + 1;
+        int n2 = h + 1;
 
-        if (0 <= h && h <= 24 | 0 <= m && m <= 60) {
-            int n = m + 1;
-            System.out.print("Thời gian hiện tại là" + h + ":" + m + " và thời gian sau 1 phút nữa là " + h + ":" +n);
+        if (0 <= h && h < 24 | 0 <= m && m < 60 | n < 60) {
+            System.out.print("Thời gian hiện tại là " + h + ":" + m + " và thời gian sau 1 phút nữa là " + h + ":" +n);
         }
-        else if (h < 0 ) {
-            System.out.print("Số giờ nhập không hợp lệ");
+        else {
+            System.out.print("Số giờ số phút nhập không hợp lệ");
         }
-        else if (m < 0 ) {
-            System.out.print("Số phút nhập không hợp lệ");
-        }
-
-
     }
 }
