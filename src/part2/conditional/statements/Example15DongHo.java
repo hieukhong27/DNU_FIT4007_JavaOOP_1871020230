@@ -12,7 +12,7 @@ public class Example15DongHo {
         int n = m + 1;
         int n2 = h + 1;
 
-        if (0 <= h && h < 24 | 0 <= m && m < 60 | n < 60) {
+        if (0 <= h && h < 24 | 0 <= m && m < 60 ) {
             System.out.print("Thời gian hiện tại là " + h + ":" + m + " và thời gian sau 1 phút nữa là " + h + ":" +n);
         }
         else {
