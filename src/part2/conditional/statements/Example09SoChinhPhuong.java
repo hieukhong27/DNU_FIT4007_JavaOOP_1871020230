@@ -6,15 +6,22 @@ public class Example09SoChinhPhuong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập một số nguyên dương N bất kì: ");
-        int n = sc.nextInt();
+        long n = sc.nextLong();
 
         if (n > 0) {
+            double CanSoN = Math.sqrt(n);
 
-            int c = (int) n;
+            long CanSoNguyen = (long) CanSoN;
 
-            if (c == n) {
-                
+            if (CanSoNguyen * CanSoNguyen == n) {
+                System.out.print("Số " + n + " là số chính phương");
             }
+            else {
+                System.out.print("Số " + n + " Không phải số chính phương");
+            }
+        }
+        else {
+            System.out.print("Nhập sai yêu cầu");
         }
     }
 }
